@@ -40,6 +40,6 @@ mongoose
     'mongodb+srv://GilHemo:g9319699@cluster0.x9bi2.mongodb.net/fruits?retryWrites=true&w=majority'
   )
   .then((result) => {
-    app.listen(process.env.PORT || 8080);
+    app.listen(8080);
   })
   .catch((err) => console.log(err));
